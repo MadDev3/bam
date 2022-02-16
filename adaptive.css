@@ -1,0 +1,116 @@
+
+@media only screen and (max-width: 1200px){
+
+	header{
+		padding-bottom: 200px;
+	}
+
+	.up-line{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	.content{
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.works{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.partners{
+		grid-template-columns: 1fr 1fr;
+		width: 60%;
+		margin-left: 20%;
+	}
+
+	.ideas{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.down{
+		width: 90%;
+		margin-left: 5%;
+	}
+}
+
+@media only screen and (max-width: 750px){
+	.up-line{
+		flex-direction: column;
+		margin-bottom: 150px;
+	}
+	.desktop{
+		display: none;
+	}
+
+	.mobile{
+		display: block;
+	}
+
+	.center .red-btn{
+		width: 90%;
+		font-size: 20px;
+	}
+
+	.works{
+		grid-template-columns: 1fr;
+	}
+
+	.partners{
+		grid-template-columns: 1fr;
+	}
+
+	.ideas{
+		grid-template-columns: 1fr;
+	}
+
+	.ideas__card1,.ideas__card2,.ideas__card3,.ideas__card4,.ideas__card5,
+	.ideas__card6,.ideas__card7{
+		grid-column: 1/-1;
+		padding: 70px 0;
+	}
+
+	.h3-hi{
+		margin: 20px 0;
+	}
+
+	.form{
+		display: flex;
+		flex-direction: column;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+
+	.form button{
+		margin-top: 10px;
+	}
+
+	.content{
+		margin-bottom: 50px;
+	}
+
+	.down{
+		width: 100%;
+		margin-left: 0;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.down__part__flex{
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.down__part__flex h4{
+		margin: 5px 10px 10px 10px;
+	}
+
+	.down__part{
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+}
