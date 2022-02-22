@@ -28,16 +28,16 @@ header{
 	width: 100%;
 	text-align: center;
 	padding-top: 40px;
-	padding-bottom: 250px;
+	padding-bottom: 235px;
 	color: white;
 }
 
 .up-line{
-	width: 80%;
-	margin-left: 10%;
+	width: 65.8%;
+	margin-left: 17.1%;
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 300px;
+	margin-bottom: 140px;
 	color: white;
 }
 
@@ -48,8 +48,13 @@ header{
 
 .mobile{
 	display: none;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 	font-size: 26px;
+}
+
+.desktop{
+	font-size: 20px;
+	letter-spacing: 1px;
 }
 
 .login,.signup{
@@ -69,12 +74,13 @@ header{
 
 .center{
 	color: white;
-	font-size: 20px;
+	font-size: 26px;
 	font-family: Mont Bold;
 }
 
-.center h4{
-	margin: 30px 0;
+.center h5{
+	margin-top: 27px;
+	margin-bottom: 34px;
 	font-family: Roboto;
 }
 .red-btn{
@@ -82,43 +88,52 @@ header{
 	border-radius: 100px;
 	color: white;
 	border: none;
-	padding: 10px 15px;
+	padding: 11px 26px;
 	font-family: Mont Bold;
 }
 
 .step{
 	letter-spacing: 3px;
+	font-size: 10px;
+	padding: 5px 10px;
 }
 
 .content{
-	margin-top: 100px;
+	margin-top: 93px;
 	margin-bottom: 100px;
 	font-family: Roboto;
 	text-align: center;
-	width: 80%;
-	margin-left: 10%;
+	width: 66%;
+	margin-left: 17%;
+}
+
+.content h2{
+	font-family: Mont Bold;
 }
 
 .works{
-	margin-top: 20px;
-	margin-bottom: 100px;
+	margin-top: 35px;
+	margin-bottom: 90px;
+	margin-left: 5px;
+	margin-right: 5px;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 20px;
+	grid-gap: 18px;
 }
 
 .works__card{
 	color: white;
-	padding-top: 250px;
-	padding-bottom: 20px;
-	padding-left: 20px;
+	padding-top: 225px;
+	padding-bottom: 15px;
+	padding-left: 25px;
 	padding-right: 20px;
 	text-align: left;
-	font-size: 20px;
+	font-size: 15px;
+	border-radius: 5px;
 }
 
 .works__card h2{
-	margin-top: 10px;
+	margin-top: 15px;
 	margin-bottom: 10px;
 }
 
@@ -136,6 +151,8 @@ header{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	padding-top: 255px;
+	padding-left: 22px;
 }
 .card3{
 	background: url(img/step3.png);
@@ -145,11 +162,11 @@ header{
 }
 
 .partners{
-	margin-top: 20px;
+	margin-top: 35px;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-gap: 20px;
-	margin-bottom: 50px;
+	margin-bottom: 35px;
 }
 
 .partners__card{
@@ -159,15 +176,21 @@ header{
 	flex-direction: column;
 }
 
-.partners__card h2{
-	margin-top: 20px;
-	margin-bottom: 20px;
+.partners__card h4{
+	margin-top: 18px;
+	margin-bottom: 14px;
+	font-size: 15px;
+	font-weight: 800;
+}
+.partners__card p{
+	font-size: 14px;
+	opacity: 0.5;
 }
 
 .partners__card__img{
 	border-radius: 100px;
-	height: 200px;
-	width: 200px;
+	height: 119px;
+	width: 119px;
 	position: relative;
 }
 
@@ -178,13 +201,13 @@ header{
 
 .partners__card__img__icon{
 	position: absolute;
-	bottom: 0;
-	right: 0;
-	height: 50px;
-	width: 50px;
+	bottom: -5px;
+	right: -5px;
+	height: 22px;
+	width: 22px;
 	background-color: red;
 	border-radius: 100px;
-	border: 7px solid white;
+	border: 4px solid white;
 	padding: 5px;
 }
 
@@ -197,7 +220,7 @@ header{
 	background: #CD5C5C url(img/icon1.png);
 	background-repeat: no-repeat;
 	background-size: 60%;
-	background-position: 10px 10px;
+	background-position: center;
 }
 
 .green-icon{
@@ -205,7 +228,7 @@ header{
 	background-image: url(img/icon2.png);
 	background-repeat: no-repeat;
 	background-size: 60%;
-	background-position: 10px 10px;
+	background-position: center;
 }
 
 .yellow-icon{
@@ -227,16 +250,16 @@ header{
 	border-radius: 100px;
 	color: #F08080;
 	border: 2px solid #F08080;
-	padding: 10px 15px;
+	padding: 10px 30px;
 	font-family: Mont Bold;
 }
 
 .h1-ideas{
-	margin-top: 100px;
+	margin-top: 95px;
 }
 
 .ideas{
-	margin-top: 20px;
+	margin-top: 35px;
 	margin-bottom: 100px;
 	display: grid;
 	grid-gap: 20px;
@@ -248,7 +271,8 @@ header{
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #D3D3D3;
-	padding: 200px 0;
+	height: 305px;
+	border-radius: 5px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -259,7 +283,8 @@ header{
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #D3D3D3;
-	padding: 200px 0;
+	height: 305px;
+	border-radius: 5px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -270,7 +295,8 @@ header{
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #D3D3D3;
-	padding: 200px 0;
+	height: 305px;
+	border-radius: 5px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -281,7 +307,8 @@ header{
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #D3D3D3;
-	padding: 200px 0;
+	height: 305px;
+	border-radius: 5px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -292,7 +319,8 @@ header{
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #D3D3D3;
-	padding: 200px 0;
+	height: 305px;
+	border-radius: 5px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -304,7 +332,8 @@ header{
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #D3D3D3;
-	padding: 200px 0;
+	height: 305px;
+	border-radius: 5px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -316,7 +345,8 @@ header{
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #D3D3D3;
-	padding: 200px 0;
+	height: 305px;
+	border-radius: 5px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -324,27 +354,31 @@ header{
 
 .h3-hi{
 	opacity: 0.5;
-	margin: 50px 0;
+	margin: 37px 0;
 }
 
 .input{
 	background: transparent;
 	border: 1px solid silver;
-	padding: 9px 15px;
+	padding: 10px 15px;
 	font-family: Mont Bold;
 	border-radius: 5px;
+	width: 218px;
+	margin-right: 5px;
 }
 
 footer{
-	border-top: 3px solid #F08080;
+	border-top: 4px solid #F08080;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	font-family: Roboto;
+	margin-top: 12px;
 }
 
 .down{
-	width: 80%;
-	margin-left: 10%;
+	margin-top: 6px;
+	width: 65.8%;
+	margin-left: 17.1%;
 	display: flex;
 	justify-content: space-between;
 }
@@ -356,7 +390,7 @@ footer{
 
 .down__part{
 	font-family: Mont Bold;
-
+	margin-left: 120px;
 }
 
 .down__part h4{
@@ -379,4 +413,13 @@ footer{
 	opacity: 0.4;
 	justify-content: flex-end;
 	margin-bottom: 10px;
+	font-size: 10px;
+	text-align: right;
+}
+
+.left{
+	display: flex;
+}
+.right{
+	margin-left: -100px;
 }
